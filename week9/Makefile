@@ -1,9 +1,11 @@
 CXX = g++
 CXXFLAGS = -g -Wall -o
 
-heapPath: heapPath.cpp
+returnBreak: returnBreak.cpp
 	$(CXX) $(CXXFLAGS) $@ $<
-huffcode: huffcode.cpp
+
+insertMerge: insertMerge.cpp
 	$(CXX) $(CXXFLAGS) $@ $<
-smartPtr: smartPtr.cpp
+
+insertHeap: insertHeap.cpp
 	$(CXX) $(CXXFLAGS) $@ $<

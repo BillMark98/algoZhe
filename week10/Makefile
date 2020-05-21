@@ -1,9 +1,11 @@
 CXX = g++
 CXXFLAGS = -g -Wall -o
 
-heapPath: heapPath.cpp
+ageCount: ageCount.cpp
 	$(CXX) $(CXXFLAGS) $@ $<
-huffcode: huffcode.cpp
+
+scoreJudge: scoreJudge.cpp
 	$(CXX) $(CXXFLAGS) $@ $<
-smartPtr: smartPtr.cpp
+
+swapZeroCount: swapZeroCount.cpp
 	$(CXX) $(CXXFLAGS) $@ $<

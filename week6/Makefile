@@ -1,9 +1,11 @@
 CXX = g++
 CXXFLAGS = -g -Wall -o
 
-heapPath: heapPath.cpp
+connectedSet: connectedSet.cpp
 	$(CXX) $(CXXFLAGS) $@ $<
-huffcode: huffcode.cpp
+
+save007: save007.cpp
 	$(CXX) $(CXXFLAGS) $@ $<
-smartPtr: smartPtr.cpp
+
+sixDeg: sixDeg.cpp
 	$(CXX) $(CXXFLAGS) $@ $<

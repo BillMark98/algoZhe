@@ -22,3 +22,11 @@ L 1234567890 myQQ@qq.com
 // reverseHashing
 11
 33 1 13 12 34 38 27 22 32 -1 21
+
+
+// kmp
+abcabcabcabcacabxy
+3
+abcabcacab
+cabcabcd
+abcabcabcabcacabxyz

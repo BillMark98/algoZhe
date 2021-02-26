@@ -7,3 +7,5 @@ huffcode: huffcode.cpp
 	$(CXX) $(CXXFLAGS) $@ $<
 smartPtr: smartPtr.cpp
 	$(CXX) $(CXXFLAGS) $@ $<
+connectedSet: connectedSet.cpp
+	$(CXX) $(CXXFLAGS) $@ $<
